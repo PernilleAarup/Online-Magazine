@@ -1,0 +1,501 @@
+/* Basic CSS Reset */
+::after,
+::before{
+    margin: 0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Styling af Index html - forside */
+.page_body{
+    font-family: Helvetica;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#91acb4;
+}
+
+.header h1{
+    margin-top:0px;
+}
+
+.blue_stick{
+    background-color:#d0e1e8;
+    color:#d0e1e8;
+    margin-top: 0;
+}
+.blue_stick_forside{
+    background-color:#d0e1e8;
+    color:#d0e1e8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.searchbar{
+    position: relative;
+    height: 25px;
+    left: 1070px;
+    padding-right: 120px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: Helvetica;
+    top: 45px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 670px;
+    top: 5px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+/* Styling menu */
+.navigation_container{
+    background: #ffffff;
+    justify-content: space-around;
+    display: flex;
+}
+.dropbtn{
+    background-color: #ffffff;
+    color: #526371;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+} 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #526371;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+.dropdown-content a {
+    color: #d0e1e8;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+.dropdown-content a:hover {background-color: #91acb4;} 
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #d0e1e8;}
+
+
+/* Slideshow container */
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica;
+}
+.mySlides{
+    display: none;
+}
+img{
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow_container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color:#91acb4;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a white background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #ffffff;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 7px;
+  width: 7px;
+  margin: 0 2px;
+  background-color: #91acb4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #91acb4;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Styling Heading and paragraph */
+.Velkommen{
+    color: #526371;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.manly_beskrivelse{
+    color: #91acb4;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    font-size: 16px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    
+}
+.blue_stick{
+    background-color:#d0e1e8;
+    color:#d0e1e8;
+}
+
+/* Styling af Natteliv - Barer - Artikel 1 */
+
+/* 2 ligestore kolonner på siden*/  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.danielsanpic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: -18px;
+}
+.donnyspic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px; 
+    margin-top: -18px;
+}
+.glasshousepic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+}
+.wharfbarpic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+}
+.bartext{
+    font-size: 18px;
+    font-family: Helvetica;
+    color:#526371;
+    padding-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.material-icons{
+    color:#526371;
+    vertical-align: middle;
+}
+
+.adress{
+    font-size: 16px;
+    font-family: Helvetica;
+    color:#91acb4;
+    line-height: 24px;
+}
+
+.website{
+    font-size:28px;
+    line-height:24px;
+}
+.website-link{
+    font-size: 16px;
+    font-family: Helvetica;
+    color:#91acb4;
+    padding-left: 5px;
+}
+.map{
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+/* Styling af Aktiviteter - Surfing - Artikel 2 */
+
+.surfingmanlyoverskrift{
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+    text-align: left;
+    position: absolute;
+    padding-left: 20px;
+}
+.overskrifttext{
+    font-size: 16px;
+    font-family: Helvetica;
+    color:#91acb4;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.surfing{
+    display: flex;
+}
+
+.surfing section{
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin: 2% auto;
+    margin-top: 120px;
+    min-height: 400px;
+    max-width: 450px;
+}
+
+.overskrift{
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.info-text{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #91acb4; 
+    text-align: center;
+}
+.wheretosurfpic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+.rentboard{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.video{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling af Attraktioner - Strande - Artikel 3 */
+/* 2 ligestore kolonner på siden*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.beachpic{
+    width: 340px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.beachtext-manly{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+    margin-top: 25px;
+}
+.infotext-manly{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #91acb4; 
+    margin-top: -5px;
+
+ }
+.beachtext-shelley{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+    margin-top: 90px;
+}
+.infotext-shelley{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #91acb4;
+    margin-top: -5px; 
+ }
+ .beachtext-collins{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+}
+.infotext-collins{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #91acb4; 
+    margin-top: -5px;
+ }
+ .beachtext-store{
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica;
+    color:#526371;
+    margin-top: 110px;
+}
+.infotext-store{
+    font-size: 14px;
+    font-family: Helvetica;
+    color: #91acb4; 
+    margin-top: -5px;
+ }
+
+ /* Footer */
+.flex-container{
+    background-color: #91acb4;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    width: 80px;
+    flex-wrap: wrap;
+    padding: 2px !important; 
+}
+.flex-item-left{
+    margin-left: -100px;
+}
+.flex-item-middle{
+    margin-left: -200px;
+}
+.flex-item-right{
+    flex-direction: row;
+}
+
+#update{
+    color: #f3ddbf;
+    font-size: 20px;
+    font-family: Helvetica;
+    margin-bottom: -10px;
+}
+
+#tilmeld{
+    color: #526371;
+    font-size: 16px;
+    font-family: Helvetica;
+}
+
+input{
+    border-radius: 10px;
+    color: #526371;
+    padding-left: 10px;
+    margin-left: -3px;
+}
+input[type=submit] {
+    background-color: white;
+    color: #526371;
+    border: none;
+    padding-right: 10px;
+}
+
+#followus{
+    color: #f3ddbf;
+    font-size: 20px;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-control{
+    border-radius: 15px;
+    padding-right: 60px;
+}
+.sociale{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
+.weather{
+    color:#526371;
+    font-size: 16px;
+}
+.weatherpic{
+    width: 75px;
+    height: 60px;
+}
